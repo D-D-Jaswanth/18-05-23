@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-image: url(img1.jpeg);
+            background-size: cover;
+            min-height: 100vh;
+            background-attachment: fixed;
+            font-family: 'Poppins', sans-serif;
+            font-size: 18px;
+            text-align: center;
+        }
+        .boxes{
+            display: flex;
+            padding: 0.5%;
+            background: #fff;
+        }
+        .box-1,.box-2,.box-3{
+            background-color: #fff;
+            margin: 3%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 2%;
+            border-radius: 1%;
+            transition: all 0.5s ease;
+            cursor: pointer;
+        }
+        .box-1:hover,
+        .box-2:hover,
+        .box-3:hover{
+            box-shadow: 1px 0px 1px 2px rgba(0, 0, 0, 0.1);
+            transition: all 0.5s ease;
+        }
+        img{
+            width: 50%;
+        }
+
+        a{
+            margin-top: 2%;
+            text-decoration: none;
+            background: rgb(0, 0, 255);
+            color: #fff;
+            padding: 12px;
+            border-radius: 5px;
+        }
+        p{
+            text-align: left;
+            font-size: 1rem;
+        }
+    </style>
+</head>
+<body>
+    <h1>Apple products</h1>
+    <div class="boxes">
+        <div class="box-1">
+            <img src="img2.jpg" alt="img2">
+            <span class="title">Apple Watch</span>
+            <div class="details">
+                <p>Apple Watch Ultra has a water resistance rating of 100 meters under ISO standard 22810.</p>
+                <p>It may be used for recretional scuba diving.</p>
+                <p>Apple series with health and safety features.</p>
+                <p>The most rugged and capable Apple watch ever. and Upto 36 hours of battery life</p>
+                <p>From 14483.00/ mo. with instant savings and No cost EMI or 89900.00/-</p>
+            </div>
+            <a target="_blank" href="https://www.apple.com/in/shop/buy-watch">Apple Watch</a>
+        </div>
+        <div class="box-2">
+            <img src="img3.jpeg" alt="img3">
+            <span class="title">Iphone 14</span>
+            <div class="details">
+                <p>Iphone 14 pro and 14 pro max. with Dynamic Island. Crash Detection.</p>
+                <p>An innovative 48MP camera. and A16 Bionic.</p>
+                <p>Front and Back view of iphone 14 pro in space black.</p>
+                <p>Iphone 14 pro 15.4 cm (6.1-inches) display</p>
+                <p>From 20650.00/- per month with instant savings and no cost EMI 1,29,900.00/-</p>
+            </div>
+            <a target="_blank" href="https://www.apple.com/in/iphone/">Iphone</a>
+        </div>
+        <div class="box-3">
+            <img src="img4.jpeg" alt="img4">
+            <span class="title">Apple Airpods</span>
+            <div class="details">
+                <p>Style from ear to ear. With a contoured design and shorter.</p>
+                <p>Airpods can be used as Bluetooth headphones with Apple devices</p>
+                <p>With plenty of talk and listen time, voice-assistant siri access.</p>
+                <p>The new apple -designed H2 chip is the force behind airpods pro.</p>
+                <p>From 2593.00/ month with EMI or MRP 14900.00 (Incl. of all taxes)</p>
+            </div>
+            <a target="_blank" href="https://www.amazon.in/Apple-AirPods-MagSafe-Charging-Case/dp/B09JR27TBV?source=ps-sl-shoppingads-lpcontext&ref_=fplfs&psc=1&smid=A14CZOWI0VEHLG">Apple Airpods</a>
+        </div>
+    </div>
+</body>
+</html>
